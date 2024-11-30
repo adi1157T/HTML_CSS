@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Poppins&family=Prociono&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav, main, footer{
+width: 100%;
+}
+
+nav{
+    background-color:#4A628A ;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+}
+nav > h2{
+    color: aliceblue;
+    font-size: 1.9rem;
+}
+
+nav > ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+nav > ul > li{
+    margin:1rem ;
+}
+
+nav > ul > li > a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+}
+
+footer{
+    background-color:#7AB2D3 ;
+    height: 10rem;
+    text-align: center;
+}
+footer > div > svg{
+    margin:1rem ;
+}
+
+
+main{
+    background-color:#cfe0e8;
+    text-align: center;
+    padding:5rem ;
+}
+
+main > section > div > h1{
+    font-size: 2rem;
+    font-family: "DynaPuff", system-ui;
+}
+
+main > section > div > p{
+   font-size: 1rem;
+    font-family: "DynaPuff", system-ui;
+}
+
+main > section > img {
+    width: 16rem;
+    height: 16rem;
+    border-radius: 100%;
+    
+}
+
+main > section{
+    display: flex;
+    align-items: center;
+justify-content: space-around;
+height: 100vh;
+}
+
+#experience , #education{
+    height: 90vh;
+    padding: 5rem;
+}
+
+div > h1{
+    font-size: 2rem;
+    font-family: "DynaPuff", system-ui;
+    color: #4A628A;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form > label{
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+
+}
+
+form > label > input{
+    width: 20rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    border: none;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+textarea{
+    border-radius: 0.5rem;
+    border: none;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
